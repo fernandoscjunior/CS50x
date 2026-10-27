@@ -1,0 +1,5 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+- I could query the average energy, valence and danceability of all songs, add them together then divide by 100.
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+- It could classify people that listen to faster and more upbeat music as having more "aura" than people that choose to listen to slow-paced, moody songs. Instead of using a number that can give the idea that those with higher numbers are "better" in some sense than those who have lower numbers, I would get the average mood of the songs in number and once I get the value I convert it to "moody" when low, "neutral/pop" when medium and "party guy" when high.

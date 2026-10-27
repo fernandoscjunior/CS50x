@@ -1,0 +1,16 @@
+sort1 uses: Bubble Sort
+
+How do you know? It gets much faster when the numbers are all sorted.
+bubble sort's Big O is n^2 but its best case (omega) is just n, so in the best case scenario it just goes one time through the numbers,
+and that means it gets faster when already sorted.
+
+sort2 uses: Merge Sort
+
+How do you know?: It was the fastest, as I learned n log n is the fastest.
+Merge sort has Big O and Omega of n log n. so in any case it is just very fast.
+
+sort3 uses: Selection Sort
+
+How do you know?: Its performance is consistent through random, reversed and sorted numbers.
+Since it has Big O and Omega of n^2, even in the best case when all numbers are sorted it takes the same amount of time to execute then
+when it is random.
